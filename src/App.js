@@ -1,4 +1,3 @@
-import "./App.css";
 import Index from "./pages/index";
 
 function App() {
@@ -8,5 +7,4 @@ function App() {
     </>
   ) 
 }
-
 export default App;
