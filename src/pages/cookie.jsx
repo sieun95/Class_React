@@ -2,7 +2,7 @@ import axios from "axios";
 
 const Cookie = () => {
     const handleClick = async () => {
-        const result = await axios.post('http://localhost:3500/cookie','name=tldis', {withCredentials:true})
+        const result = await axios.post('http://localhost:3500/cookie','null', {withCredentials:true})
         console.log(result)
     }
     return (
